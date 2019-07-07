@@ -1,10 +1,12 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"       
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">  
 	<head>
 		<title>Today's Date - Xiaoyu Zhang</title>
-		<meta charset="utf-8" />
         <link rel="shortcut icon" href="/images/favicon.png" type="image/png" >
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta http-equiv="content-type"       
+        content="text/html; charset=utf-8"/>   
 		<link rel="stylesheet" href="../assets/css/aboutme.css" />
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 	</head>
