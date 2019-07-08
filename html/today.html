@@ -1,5 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"       
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">  
 	<head>
 		<title>Today's Date - Xiaoyu Zhang</title>
@@ -24,12 +23,44 @@
                                     <script>
                                     document.write(Date());
                                         
+                                        
                                     </script>
+                                                              <br>  
 <!--
-                                <?php 
+                                    <?php 
                                     echo date('l, F dS Y.');       
                                     ?>  
 -->
+                                    </p>
+                              
+                                    <p>What is 5 in binary <br>
+
+                                    <input id="numb" class="enterbutton">
+
+                                    <button type="button" onclick="myFunction()">Send</button><br>
+
+                                        <span id="demo"></span>
+                                    <p>
+                                    <script>
+                                    function myFunction() {
+                                        var x, text;
+
+                                        // 获取 id="numb" 的值
+                                        x = document.getElementById("numb").value;
+
+                                        if (x==null || x=="") {
+                                            text = "Enter date!"
+                                            alert("Enter date!");
+                                        } else if (x==101){
+                                            text = "Correct! More coming up"
+                                        }else {
+                                            text = "Incorrect!";
+                                        }
+                                        document.getElementById("demo").innerHTML = text;
+                                    }
+                                        </script></p> 
+                                
+
                                     <br>
       
                             
