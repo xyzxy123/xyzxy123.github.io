@@ -1,1 +1,1 @@
-Personal Website for Jennie(Xiaoyu) Zhang
+Personal Website for Xiaoyu Zhang
